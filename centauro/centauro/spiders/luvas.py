@@ -6,7 +6,7 @@ class LuvasSpider(scrapy.Spider):
     name = "luvas"
     allowed_domains = ["www.centauro.com.br"]
     custom_settings = {
-		'DOWNLOAD_DELAY': 5, # seconds of delay
+		'DOWNLOAD_DELAY': 10, # seconds of delay
         'RANDOMIZE_DOWNLOAD_DELAY': True
 		}
     start_urls = ["https://www.centauro.com.br/busca/luva-de-goleiro"]
